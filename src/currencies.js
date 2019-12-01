@@ -209,6 +209,22 @@ var CURRENCIES = [{
     name: 'raiblocks',
     symbol: 'xrb',
     validator: NANOValidator,
+}, {
+    name: 'desire',
+    symbol: 'dsr',
+    addressTypes: {prod: ['1e', '10'], testnet: ['1e', '10']}
+}, {
+    name: "gravium",
+    symbol: "grv",
+    addressTypes: {prod: ["26", "61"], testnet: ["37", "75"]}
+}, {
+    name: "motion",
+    symbol: "xmn",
+    addressTypes: {prod: ["32", "12"], testnet: ["6E", "15"]}
+}, {
+    name: "ucacoin",
+    symbol: "uca",
+    addressTypes: {prod: ["44", "82"]}
 }];
 
 
