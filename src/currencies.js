@@ -212,19 +212,23 @@ var CURRENCIES = [{
 }, {
     name: 'desire',
     symbol: 'dsr',
-    addressTypes: {prod: ['1e', '10'], testnet: ['1e', '10']}
+    addressTypes: {prod: ['1e', '10'], testnet: ['1e', '10']},
+    validator: BTCValidator
 }, {
     name: "gravium",
     symbol: "grv",
-    addressTypes: {prod: ["26", "61"], testnet: ["37", "75"]}
+    addressTypes: {prod: ["26", "61"], testnet: ["37", "75"]},
+    validator: BTCValidator
 }, {
     name: "motion",
     symbol: "xmn",
-    addressTypes: {prod: ["32", "12"], testnet: ["6E", "15"]}
+    addressTypes: {prod: ["32", "12"], testnet: ["6E", "15"]},
+    validator: BTCValidator
 }, {
     name: "ucacoin",
     symbol: "uca",
-    addressTypes: {prod: ["44", "82"], testnet: []}
+    addressTypes: {prod: ["44", "82"], testnet: []},
+    validator: BTCValidator
 }];
 
 
