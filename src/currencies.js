@@ -224,7 +224,7 @@ var CURRENCIES = [{
 }, {
     name: "ucacoin",
     symbol: "uca",
-    addressTypes: {prod: ["44", "82"]}
+    addressTypes: {prod: ["44", "82"], testnet: []}
 }];
 
 
